@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0320/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0320/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 凝陽董真人遇仙記
+  date: '2015-08-28 23:46:45.144656'
+  source:
+    repository: kanripo
+    path: KR5a0320
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0320_000-HFL.yaml, hash: 'sha256:6da866c1ae860faca9328f3161b56ae456086722fb29142a588141adcd68c1e6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0320_000-HFL.markers.yaml, hash: 'sha256:94c39c46ce176735f2304580fbbe673addffada434b969dc832e16c23a041cce'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0320_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5349
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:a79b99a54d26cf3187fe29589425dddd57e800cbc5ee349dad3a345437a8ce4c

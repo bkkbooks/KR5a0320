@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5a0320/v1
+canonical_location: https://kanripo.org/bkk/KR5a0320/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 凝陽董真人遇仙記
+  identifiers:
+    alt_id:
+    - DZ0308
+  date: '2015-08-28 23:46:45.144656'
+  source:
+    repository: kanripo
+    path: KR5a0320
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0320_000.yaml, hash: 'sha256:f6ecae62d1801b9217d01a88ba375da66cbcff752628f1b5683200a8fd0c04fb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0320_000.markers.yaml, hash: 'sha256:4da43e6faf9dbb2c6a8536c398bcfea2cdebc3611399082612ac6a2ee9138379'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0320_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5349
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:261cb112916414c816a23c27bf372aa2eaa0281b8e89573d81be44c5af1b88d8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
